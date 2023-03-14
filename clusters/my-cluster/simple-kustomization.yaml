@@ -6,7 +6,7 @@ metadata:
   namespace: flux-system
 spec:
   interval: 5m0s
-  path: ./simple/base
+  path: ./tree/main/k3d-cluster/my-cluster//simple/base
   prune: true
   sourceRef:
     kind: GitRepository
